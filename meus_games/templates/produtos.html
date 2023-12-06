@@ -1,0 +1,47 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/meu_estilo.css' %}">
+    <title>Nossos Produtos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Nossos Produtos</h1>
+    </header>
+
+    <nav>
+        <a href="/">Home</a>
+        <a href="/produtos">Produtos</a>
+        <a href="/contato">Contato</a>
+      </nav>
+      
+    <main class="container">
+        <section class="product">
+            <img src="../static/fotos/pulseira.jpg" alt="Produto 1">
+            <h2>pulseira pandora</h2>
+            <p class="price">R$ 600,99</p>
+        </section>
+
+        <section class="product">
+            <img src="../static/fotos/anel.jpg" alt="Produto 2">
+            <h2>Anel de prata</h2>
+            <p class="price">R$ 209,99</p>
+        </section>
+
+        <!-- Adicione mais seções para mais produtos -->
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Nossos Produtos</p>
+    </footer>
+
+</body>
+
+</html>
